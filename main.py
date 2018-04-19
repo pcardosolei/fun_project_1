@@ -9,7 +9,6 @@ def main():
         -- data science to get results.
         -- step 5 -- iterate with more data ( return to step 3 with more data)
   """
-  readCSV()
 
 
 if __name__ == "__main__":
