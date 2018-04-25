@@ -1,9 +1,11 @@
 import csv
+import match
 
 """
 Needs testing - File with all the games status
   - Phase 2 add type in case we need more information from other CSV.
 """
+
 def readCSV(file):
   with open(file,"rb") as filename:
     details = csv.DictReader(filename, delimiter=',')
@@ -14,8 +16,6 @@ def readCSV(file):
 
 
 def createMatchObject(data):
-  print "---"
-  print data["Date"]
 
 
 
@@ -24,6 +24,8 @@ readCSV("/Users/PauloCardoso/desktop/P1.csv")
 
 
 """
+Being worked on atm:
+
 Div - Division
 Date - Date
 HomeTeam - HomeTeam
